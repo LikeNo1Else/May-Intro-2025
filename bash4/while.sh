@@ -1,6 +1,9 @@
 #!/bin/bash
 
-while [ 5 -eq 5 ]
+number=1
+
+while [ $number -lt 10 ]
 do
-echo "hello world"
+echo $number
+number=$((number+1))
 done
